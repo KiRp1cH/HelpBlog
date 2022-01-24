@@ -1,4 +1,4 @@
-# README
+# HelpBlog
 
 Simple project that allows users to ask & answer the questions. Now it will be on the new version of Rails.
 
