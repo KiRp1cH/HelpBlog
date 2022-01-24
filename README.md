@@ -1,6 +1,6 @@
 # HelpBlog
 
-Simple project that allows users to ask & answer the questions. Now it will be on the new version of Rails (from 6 -> 7).
+Simple project that allows users to ask & answer the questions. Now it will be on the new version of Rails – 7. 
 
 Stack:
 
