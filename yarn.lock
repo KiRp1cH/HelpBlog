@@ -46,6 +46,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rails/ujs@npm:^6.0.0":
+  version: 6.1.4
+  resolution: "@rails/ujs@npm:6.1.4"
+  checksum: e6e7fc15a0cc96ac8a134330eac15270956b8ed13c1b5048d0b17020f33af9de91b76fbaef5f90cb95af9c207fb27477a0c97bb8b691ac9a075ce93e43b404af
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
@@ -390,8 +397,10 @@ __metadata:
   resolution: "app@workspace:."
   dependencies:
     "@popperjs/core": ^2.11.2
+    "@rails/ujs": ^6.0.0
     bootstrap: ^5.1.3
     sass: ^1.49.0
+    turbolinks: ^5.2.0
     webpack: ^5.67.0
     webpack-cli: ^4.9.2
   languageName: unknown
@@ -1947,6 +1956,13 @@ __metadata:
   dependencies:
     is-number: ^7.0.0
   checksum: f76fa01b3d5be85db6a2a143e24df9f60dd047d151062d0ba3df62953f2f697b16fe5dad9b0ac6191c7efc7b1d9dcaa4b768174b7b29da89d4428e64bc0a20ed
+  languageName: node
+  linkType: hard
+
+"turbolinks@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "turbolinks@npm:5.2.0"
+  checksum: df393c321ed19d9761e632ff357d3cb032a9ca32c07f1ef8202e5f5bb9d17fcc93cdec0d9dfcf0fbca56c373a9dffa2c151639383e663a72897ae434a877819b
   languageName: node
   linkType: hard
 
