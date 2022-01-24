@@ -46,10 +46,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/ujs@npm:^6.0.0":
-  version: 6.1.4
-  resolution: "@rails/ujs@npm:6.1.4"
-  checksum: e6e7fc15a0cc96ac8a134330eac15270956b8ed13c1b5048d0b17020f33af9de91b76fbaef5f90cb95af9c207fb27477a0c97bb8b691ac9a075ce93e43b404af
+"@rails/ujs@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "@rails/ujs@npm:7.0.1"
+  checksum: 8dff169b20a8abc84901f19352e75582b7da8b2734630db62591efec28802036a676879eab8b74feec2ea5fbd79a97413f5d94bdd4ac03585f8ff244197f2917
   languageName: node
   linkType: hard
 
@@ -397,7 +397,7 @@ __metadata:
   resolution: "app@workspace:."
   dependencies:
     "@popperjs/core": ^2.11.2
-    "@rails/ujs": ^6.0.0
+    "@rails/ujs": ^7.0.1
     bootstrap: ^5.1.3
     sass: ^1.49.0
     turbolinks: ^5.2.0
