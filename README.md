@@ -1,24 +1,15 @@
-# README
+# HelpBlog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+That's a remake of a simple project that allows users to ask & answer the questions. Now it will be on the new version of Rails – 7. 
 
-Things you may want to cover:
+Stack:
 
-* Ruby version
+* Ruby 3.1.0
 
-* System dependencies
+* Rails 7.0.1
 
-* Configuration
+* SQLite3 1.4 
 
-* Database creation
+* Sass 1.49
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Bootstrap 5.1.3
