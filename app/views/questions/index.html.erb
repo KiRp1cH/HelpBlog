@@ -5,25 +5,29 @@
 
 <%= link_to 'New question', new_question_path, class: 'btn btn-primary btn-lg' %>
 
-<% @questions.each do |question| %>
-  <article class="card mt-3">
-    <div class="card-body">
-      <h4><%= question.title %></h4>
+<%= paginate @questions %>
 
-      <section class="card-text">
-        <time datetime="<%= question.formatted_created_at %>">
-          <small><%= question.formatted_created_at %></small>
-        </time>  
+  <% @questions.each do |question| %>
+    <article class="card mt-3">
+      <div class="card-body">
+        <h4><%= question.title %></h4>
 
-        <p class="my-2">
-          <%= question.body %>
-        </p>
-      </section>
+        <section class="card-text">
+          <time datetime="<%= question.formatted_created_at %>">
+            <small><%= question.formatted_created_at %></small>
+          </time>  
 
-      <%= link_to 'Show', question_path(question), class: 'btn btn-primary' %>
-      <%= link_to 'Edit', edit_question_path(question), class: 'btn btn-secondary' %>
-      <%= link_to 'Destroy', question_path(question), class: 'btn btn-danger', data: {method: :delete, confirm: 'Are you sure?'} %>
-    
-    </div>
-  </article>
-<% end %>
+          <p class="my-2">
+            <%= truncate strip_tags(question.body), length: 150, omission: '... (continued)' %>
+          </p>
+        </section>
+
+        <%= link_to 'Show', question_path(question), class: 'btn btn-primary' %>
+        <%= link_to 'Edit', edit_question_path(question), class: 'btn btn-secondary' %>
+        <%= link_to 'Destroy', question_path(question), class: 'btn btn-danger', data: {method: :delete, confirm: 'Are you sure?'} %>
+      
+      </div>
+    </article>
+  <% end %>
+
+<%= paginate @questions %>
