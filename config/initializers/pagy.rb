@@ -1,6 +1,7 @@
 # See Pagy API documentation: https://ddnexus.github.io/pagy/api/pagy
 # frozen_string_literal: true
 
+# rubocop:disable Metrics/AbcSize Metrics/MethodLength Metrics/CyclomaticComplexity Metrics/PerceivedComplexity
 require 'pathname'
 
 # Core class
@@ -13,16 +14,16 @@ class Pagy
   end
 
   # Default core vars: constant for easy access, but mutable for customizable defaults
-  DEFAULT = { page:       1, # rubocop:disable Style/MutableConstant
-              items:      20,
-              outset:     0,
-              size:       [1, 4, 4, 1],
+  DEFAULT = { page: 1, # rubocop:disable Style/MutableConstant
+              items: 20,
+              outset: 0,
+              size: [1, 4, 4, 1],
               page_param: :page,
-              params:     {},
-              fragment:   '',
+              params: {},
+              fragment: '',
               link_extra: '',
-              i18n_key:   'pagy.item_name',
-              cycle:      false }
+              i18n_key: 'pagy.item_name',
+              cycle: false }
 
   attr_reader :count, :page, :items, :vars, :pages, :last, :offset, :in, :from, :to, :prev, :next, :params
 
@@ -108,7 +109,7 @@ class Pagy
 
   # Setup @offset based on the :gearbox_items variable
   def setup_offset_var
-    @offset = (@items * (@page - 1)) + @outset  # may be already set from gear_box
+    @offset = (@items * (@page - 1)) + @outset # may be already set from gear_box
   end
 
   # Setup and validate @params
@@ -122,3 +123,4 @@ require 'pagy/backend'
 require 'pagy/frontend'
 require 'pagy/exceptions'
 require 'pagy/extras/bootstrap'
+# rubocop:enable Metrics/AbcSize Metrics/MethodLength Metrics/CyclomaticComplexity Metrics/PerceivedComplexity
