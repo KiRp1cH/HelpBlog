@@ -32,6 +32,15 @@ gem 'draper', '~> 4.0'
 
 gem 'valid_email2', '~> 4.0'
 
+gem 'rubyzip', '~> 2'
+
+gem 'caxlsx', '~> 3.1'
+
+gem 'caxlsx_rails', '~> 0.6'
+
+gem 'rubyXL', '~> 3.4'
+
+gem 'activerecord-import', '~> 1.2'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -57,6 +66,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'faker', '~> 2'
+  gem 'pry-rails'
 end
 
 group :development do
