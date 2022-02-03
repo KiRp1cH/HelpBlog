@@ -123,4 +123,5 @@ require 'pagy/backend'
 require 'pagy/frontend'
 require 'pagy/exceptions'
 require 'pagy/extras/bootstrap'
+require 'pagy/extras/i18n'
 # rubocop:enable Metrics/AbcSize Metrics/MethodLength Metrics/CyclomaticComplexity Metrics/PerceivedComplexity

@@ -1,0 +1,16 @@
+ru:
+  en: Английский
+  ru: Русский
+  activerecord:
+      models:
+        question: Вопрос
+  activerecord:
+      attributes:
+        question:
+          title: "Заголовок"
+          body: "Текст"
+  menu:
+    home: "Главная"
+  questions:
+    destroy:
+      success: Вопрос удалён!
