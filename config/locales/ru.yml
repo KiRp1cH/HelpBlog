@@ -2,15 +2,39 @@ ru:
   en: Английский
   ru: Русский
   activerecord:
-      models:
-        question: Вопрос
-  activerecord:
-      attributes:
-        question:
-          title: "Заголовок"
-          body: "Текст"
+    models:
+      question: Вопрос
+    attributes:
+      question:
+        title: "Заголовок"
+        body: "Текст"
   menu:
     home: "Главная"
+    questions: "Вопросы"
+    sign_up: "Зарегистрироваться"
+    log_in: "Войти"
+  drop_menu:
+    edit_profile: "Редактировать профиль"
+    log_out: "Выйти"
   questions:
+    questions: "Вопросы"
+    new_question: "Новый вопрос"
+    show: "Показать"
+    edit: "Редактировать"
+    delete: "Удалить"
     destroy:
       success: Вопрос удалён!
+  user:
+    name: Имя
+    password: Пароль
+    password_confirmation: Подтверждение пароля
+    edit_profile: Редактирование профиля
+    registration: Регистрация
+    old_password: Старый пароль
+    register: Зарегистрироваться!
+    save: Сохранить!
+    remember_me: Запомнить меня
+  warnings:
+    need_to_log_in: Вам нужно войти!
+    already_log_in: Вы уже вошли! 
+    are_you_sure: Вы уверены?

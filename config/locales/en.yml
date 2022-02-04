@@ -10,6 +10,31 @@ en:
         body: "Body"
   menu:
     home: "Home"
+    questions: "Questions"
+    sign_up: "Sign Up"
+    log_in: "Log In"
+  drop_menu:
+    edit_profile: "Edit Profile"
+    log_out: "Log Out"
   questions:
+    questions: "Questions"
+    new_question: "New Question"
+    show: "Show"
+    edit: "Edit"
+    delete: "Delete"
     destroy:
       success: Question deleted!
+  user:
+    name: Name
+    password: Password
+    password_confirmation: Password Confirmation
+    edit_profile: Edit Profile
+    registration: Registration
+    old_password: Old Password
+    register: Register!
+    save: Save!
+    remember_me: Remember me
+  warnings:
+    need_to_log_in: You need to log in!
+    already_log_in: You are already loged in!
+    are_you_sure: Are you sure?

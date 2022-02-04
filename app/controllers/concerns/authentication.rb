@@ -34,14 +34,14 @@ module Authentication
     def require_authentication
       return if user_signed_in?
 
-      flash[:warning] = 'You need to log in!'
+      flash[:warning] = t('warnings.need_to_log_in') #'You need to log in!'
       redirect_to root_path
     end
 
     def require_no_authentication
       return unless user_signed_in?
 
-      flash[:warning] = 'You are already loged in!'
+      flash[:warning] = t('warnings.already_log_in') #'You are already loged in!'
       redirect_to root_path
     end
 
