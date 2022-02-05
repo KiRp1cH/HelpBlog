@@ -1,5 +1,6 @@
 en:
   en: English
+  de: German
   ru: Russian
   activerecord:
     models:
@@ -28,7 +29,7 @@ en:
       success: Question updated!
   answers:
     answers: "Answers"
-    body: "Текст"
+    body: "Body"
     write_your_answer: "Write yours answer"
     body: "Answer's body"
     destroy:

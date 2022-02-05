@@ -1,0 +1,89 @@
+de:
+  en: Englisch
+  de: Deutsch
+  ru: Russisch
+  activerecord:
+    models:
+      question: Question
+    attributes:
+      question:
+        title: "Nachrichtenvorsatz"
+        body: "Text"
+  menu:
+    home: "Heimat"
+    questions: "Fragen"
+    sign_up: "Anmelden"
+    log_in: "Einloggen"
+  drop_menu:
+    edit_profile: "Profil Bearbeiten"
+    log_out: "Ausloggen"
+  questions:
+    new: "Neu frage"
+    title: "Nachrichtenvorsatz"
+    body: "Text"
+    destroy:
+      success: Frage gelöscht!
+    create:
+      success: Frage erstellt!
+    update:
+      success: Frage aktualisiert!
+  answers:
+    answers: "Antworten"
+    body: "Text"
+    write_your_answer: "Schreibe deine Antwort"
+    body: "Körper der Antwort"
+    destroy:
+      success: Antwort gelöscht!
+    create:
+      success: Answer erstellt!
+    update:
+      success: Answer aktualisiert!
+  buttons:
+    create: "Erstellen"
+    submit: "Einreichen"
+    save: "Speichern"
+    back: "Zurück"
+    edit: "Bearbeiten"
+    delete: "Löschen"
+    show: "Zeige"
+    register: "Registrieren"
+    log_in: "Einloggen"
+  current_page:
+    questions: "Fragen"
+    registration: "Anmeldung"
+    log_in: "Einloggen"
+    edit_question: "Frage Bearbeiten"
+    edit_answer: "Antwort bearbeiten"
+    edit_profile: "Profil bearbeiten"
+    admin_panel: "Administrationsmenü"
+  users:
+    name: Name
+    password: Passwort
+    password_confirmation: Passwort Bestätigung
+    old_password: Altes Passwort
+    remember_me: Erinner Dich an Mich
+    update:
+      success: Dein Profil wurde erfolgreich aktualisiert!
+    create:
+      success: "Willkommen beim HelpBlog, "
+  sessions:
+    create: 
+      success: "Willkommen zurück, "
+      warning: Falsche Email oder Passwort
+    destroy:
+      success: Bis zum nächsten Mal
+  admin:
+    download_zipped_xlsx: "Gezipptes XLSX herunterladen"
+    upload_users_from_xlsx: "Laden Sie Benutzer von XLSX hoch"
+    select_archive: "Archiv auswählen"
+    upload: "Hochladen"
+    table_users:
+      name: Name
+      created_at: Hergestellt in
+      updated_at: Aktualisiert am
+    create:
+      success: "Benutzer importiert"
+  warnings:
+    need_to_log_in: Sie müssen sich anmelden!
+    already_log_in: Sie sind bereits angemeldet!
+    are_you_sure: Bist du sicher?
