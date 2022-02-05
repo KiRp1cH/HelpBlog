@@ -7,7 +7,7 @@
     </div>
 
     <div class="col-sm-10">
-      <%= f.text_field :title, placeholder: "Title", class: 'form-control' %>
+      <%= f.text_field :title, placeholder: t('questions.title'), class: 'form-control' %>
     </div>
   </div>
 
@@ -17,10 +17,10 @@
     </div>
 
     <div class="col-sm 10">
-      <%= f.text_area :body, placeholder: "Body", class: 'form-control' %>
+      <%= f.text_area :body, placeholder: t('questions.body'), class: 'form-control' %>
     </div>
   </div>
 
-  <%= f.submit "Submit question", class: 'btn btn-primary' %>
-  <%= link_to 'Back', questions_path, class: 'btn btn-secondary' %>
+  <%= f.submit (@question.new_record?) ? t('buttons.submit') : t('buttons.save'), class: 'btn btn-primary' %>
+  <%= link_to t('buttons.back'), questions_path, class: 'btn btn-secondary' %>
 <% end %>

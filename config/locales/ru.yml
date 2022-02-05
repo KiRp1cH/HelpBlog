@@ -17,23 +17,71 @@ ru:
     edit_profile: "Редактировать профиль"
     log_out: "Выйти"
   questions:
-    questions: "Вопросы"
-    new_question: "Новый вопрос"
-    show: "Показать"
-    edit: "Редактировать"
-    delete: "Удалить"
+    new: "Новый вопрос"
+    title: "Заголовок"
+    body: "Текст"
     destroy:
       success: Вопрос удалён!
-  user:
+    create:
+      success: Вопрос создан!
+    update:
+      success: Вопрос обновлён!
+  answers:
+    answers: "Ответы"
+    body: "Текст"
+    write_your_answer: "Напишите свой ответ"
+    destroy:
+      success: Ответ удалён!
+    create:
+      success: Ответ создан!
+    update:
+      success: Ответ обновлён!
+  buttons:
+    create: "Создать"
+    submit: "Подтвердить"
+    save: "Cохранить"
+    back: "Назад"
+    edit: "Редактировать"
+    delete: "Удалить"
+    show: "Показать"
+    register: "Зарегистрироваться"
+    log_in: "Войти"
+  current_page:
+    questions: "Вопросы"
+    registration: "Регистрация"
+    log_in: "Вход"
+    edit_question: "Редактирование вопроса"
+    edit_answer: "Редактирование ответа"
+    edit_profile: "Редактирование профиля"
+    create_question: "Создание вопроса"
+    admin_panel: "Уголок админа"
+  users:
     name: Имя
     password: Пароль
     password_confirmation: Подтверждение пароля
-    edit_profile: Редактирование профиля
-    registration: Регистрация
     old_password: Старый пароль
-    register: Зарегистрироваться!
-    save: Сохранить!
     remember_me: Запомнить меня
+    update:
+      success: Ваш профиль успешно обновлён!
+    create:
+      success: "Добоо пожаловать в HelpBlog, "
+  sessions:
+    create:
+      success: "С возвращением, "
+      warning: Неверный E-mail или пароль
+    destroy:
+      success: Ещё увидимся
+  admin:
+    download_zipped_xlsx: "Скачать архивом XLSX"
+    upload_users_from_xlsx: "Загрузить пользователей из XLSX"
+    select_archive: "Выбрать архив"
+    upload: "Загрузить"
+    table_users:
+      name: Имя
+      created_at: Создан
+      updated_at: Обновлён
+    create:
+      success: "Пользователи загружены"
   warnings:
     need_to_log_in: Вам нужно войти!
     already_log_in: Вы уже вошли! 

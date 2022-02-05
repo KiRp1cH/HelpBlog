@@ -17,24 +17,72 @@ en:
     edit_profile: "Edit Profile"
     log_out: "Log Out"
   questions:
-    questions: "Questions"
-    new_question: "New Question"
-    show: "Show"
-    edit: "Edit"
-    delete: "Delete"
+    new: "New question"
+    title: "Title"
+    body: "Body"
     destroy:
       success: Question deleted!
-  user:
+    create:
+      success: Question created!
+    update:
+      success: Question updated!
+  answers:
+    answers: "Answers"
+    body: "Текст"
+    write_your_answer: "Write yours answer"
+    body: "Answer's body"
+    destroy:
+      success: Answer deleted!
+    create:
+      success: Answer created!
+    update:
+      success: Answer updated!
+  buttons:
+    create: "Create"
+    submit: "Submit"
+    save: "Save"
+    back: "Back"
+    edit: "Edit"
+    delete: "Delete"
+    show: "Show"
+    register: "Register"
+    log_in: "Log In"
+  current_page:
+    questions: "Questions"
+    registration: "Registration"
+    log_in: "Log In"
+    edit_question: "Edit Question"
+    edit_answer: "Edit Answer"
+    edit_profile: "Edit Profile"
+    admin_panel: "Admin panel"
+  users:
     name: Name
     password: Password
     password_confirmation: Password Confirmation
-    edit_profile: Edit Profile
-    registration: Registration
     old_password: Old Password
-    register: Register!
-    save: Save!
-    remember_me: Remember me
+    remember_me: Remember Me
+    update:
+      success: Your profile was successfully updated!
+    create:
+      success: "Welcome to the HelpBlog, "
+  sessions:
+    create: 
+      success: "Welcome back, "
+      warning: Incorrect E-mail or Password
+    destroy:
+      success: See you next time
+  admin:
+    download_zipped_xlsx: "Download Zipped XLSX"
+    upload_users_from_xlsx: "Upload users from XLSX"
+    select_archive: "Select archive"
+    upload: "Upload"
+    table_users:
+      name: Name
+      created_at: Created at
+      updated_at: Updated at
+    create:
+      success: "Users imported"
   warnings:
-    need_to_log_in: You need to log in!
-    already_log_in: You are already loged in!
+    need_to_log_in: You need to Log In!
+    already_log_in: You are already loged on! 
     are_you_sure: Are you sure?
