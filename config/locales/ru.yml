@@ -87,3 +87,6 @@ ru:
     need_to_log_in: Вам нужно войти!
     already_log_in: Вы уже вошли! 
     are_you_sure: Вы уверены?
+  global:
+    text:
+      omission: '... (Далее)'

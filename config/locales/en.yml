@@ -87,3 +87,6 @@ en:
     need_to_log_in: You need to Log In!
     already_log_in: You are already loged on! 
     are_you_sure: Are you sure?
+  global:
+    text:
+      omission: '... (continued)'

@@ -87,3 +87,7 @@ de:
     need_to_log_in: Sie müssen sich anmelden!
     already_log_in: Sie sind bereits angemeldet!
     are_you_sure: Bist du sicher?
+    
+  global:
+    text:
+      omission: '... (fortgesetzt)'
