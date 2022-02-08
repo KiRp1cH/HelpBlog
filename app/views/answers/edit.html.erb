@@ -1,2 +1,5 @@
 <h1><%= t('current_page.edit_answer') %></h1>
+
 <%= render 'form' %>
+
+<%= link_to t('buttons.back'), question_path(@question), class: 'btn btn-secondary mt-3' %>
