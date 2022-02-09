@@ -37,12 +37,16 @@ class QuestionsController < ApplicationController
   end
 
   def create
-    @question = current_user.questions.build question_params
-    if @question.save
-      flash[:success] = t('.success')
-      redirect_to questions_path
-    else
-      render :new
+    begin
+      @question = current_user.questions.build question_params
+      if @question.save
+        flash[:success] = t('.success')
+        redirect_to questions_path
+      else
+        render :new
+      end
+    rescue
+      redirect_to questions_path, notice: t('warnings.need_to_log_in')
     end
   end
 

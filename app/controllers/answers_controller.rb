@@ -17,16 +17,20 @@ class AnswersController < ApplicationController
   def edit; end
 
   def create
-    @answer = @question.answers.build answer_create_params
+    begin
+      @answer = @question.answers.build answer_create_params
 
-    if @answer.save
-      flash[:success] = t('.success')
-      redirect_to question_path(@question)
-    else
-      @question = @question.decorate
-      @pagy, @answers = pagy @question.answers.order created_at: :desc
-      @answers = @answers.decorate
-      render 'questions/show'
+      if @answer.save
+        flash[:success] = t('.success')
+        redirect_to question_path(@question)
+      else
+        @question = @question.decorate
+        @pagy, @answers = pagy @question.answers.order created_at: :desc
+        @answers = @answers.decorate
+        render 'questions/show'
+      end
+    rescue
+      redirect_to questions_path, notice: t('warnings.need_to_log_in')
     end
   end
 
