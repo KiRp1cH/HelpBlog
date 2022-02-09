@@ -8,7 +8,7 @@ Stack:
 
 * Rails 7.0.1
 
-* SQLite3 1.4 
+* SQLite3 1.4 (PostgreSQL in production)
 
 * Sass 1.49
 
